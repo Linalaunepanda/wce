@@ -1,5 +1,11 @@
 body {
   font-family: "Poppins";
+  background-image: url("../images/background.jpg");
+}
+
+
+h1 {
+  color: whitesmoke; 
 }
 
 .container {
@@ -11,6 +17,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+
+.main-nav {
+  color: whitesmoke;
+}
+
 
 .divider {
   width: 100%;
@@ -62,6 +74,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  color: whitesmoke;
 }
 
 .footer .logo {
