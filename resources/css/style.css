@@ -10,9 +10,11 @@ h2 {
 }
 
 .banner {
-  height: 60px;
+  height: 100px;
   width: 100%;
   background-image: url('../images/WCE_Kopfzeile01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
