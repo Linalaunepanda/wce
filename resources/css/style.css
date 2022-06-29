@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'Newton';
+  src: url(/resources/fonts/NewtonItalic.ttf) format('NewtonItalic')
+}
+
 body {
-  font-family: "Poppins";
+  font-family: "Arial";
   font-size: 15px;
 }
 
@@ -7,6 +12,14 @@ body {
 h2 {
   color: rgb(3, 10, 73); 
   font-size: 24px;
+}
+
+.wce {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+
 }
 
 .banner {
@@ -58,7 +71,7 @@ h2 {
 .page-navigation .topbar {
   padding: 8px 16px;
   text-align: right;
-  background: #ccc;
+  background: rgb(248, 248, 248);
 }
 
 .page-navigation .topbar a {
