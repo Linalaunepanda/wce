@@ -1,6 +1,37 @@
 @font-face {
-  font-family: 'Newton';
-  src: url(/resources/fonts/NewtonItalic.ttf) format('NewtonItalic')
+  font-family: 'Newtown';
+  src: url('../fonts/NewtownBold.woff2') format('woff2'),
+    url('../fonts/NewtownBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newtown';
+  src: url('../fonts/NewtownItalic.woff2') format('woff2'),
+    url('../fonts/NewtownItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newtown';
+  src: url('../fonts/NewtownBoldItalic.woff2') format('woff2'),
+    url('../fonts/NewtownBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newtown';
+  src: url('../fonts/Newtown.woff2') format('woff2'),
+    url('../fonts/Newtown.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -10,24 +41,50 @@ body {
 
 
 h2 {
-  color: rgb(3, 10, 73); 
+  color: rgb(3, 10, 73);
   font-size: 24px;
 }
 
 .wce {
-  font-family: 'Poppins';
+  font-family: 'Newtown';
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .banner {
-  height: 100px;
+  position: relative;
+  height: 160px;
   width: 100%;
-  background-image: url('../images/WCE_Kopfzeile01.jpg');
+  background-image: url('../images/thomas-vimare-IZ01rjX0XQA-unsplash.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+.banner-gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(146, 143, 204);
+  background: linear-gradient(90deg, rgba(146, 143, 204, 1) 0%, rgba(152, 152, 238, 1) 19%, rgba(116, 232, 230, 1) 100%);
+  mix-blend-mode: color;
+  animation: hue 1s linear infinite;
+  opacity: .5;
+}
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(360deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
+  }
 }
 
 
@@ -119,6 +176,7 @@ h2 {
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
 .footer .logo {
   margin-right: 16px;
 }
