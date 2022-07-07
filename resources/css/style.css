@@ -73,20 +73,8 @@ h2 {
   background: rgb(146, 143, 204);
   background: linear-gradient(90deg, rgba(146, 143, 204, 1) 0%, rgba(152, 152, 238, 1) 19%, rgba(116, 232, 230, 1) 100%);
   mix-blend-mode: color;
-  animation: hue 1s linear infinite;
   opacity: .5;
 }
-
-@keyframes hue {
-  0% {
-    filter: hue-rotate(360deg);
-  }
-
-  100% {
-    filter: hue-rotate(0deg);
-  }
-}
-
 
 .footer a:hover {
   box-shadow: inset 190px 0 0 0 #164f85d3;
