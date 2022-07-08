@@ -40,6 +40,17 @@ body {
 }
 
 
+h1 {
+  font-family: 'Newtown';
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: #fff;
+}
+
 h2 {
   font-size: 24px;
 }
@@ -83,6 +94,7 @@ a {
   background: linear-gradient(90deg, rgba(146, 143, 204, 1) 0%, rgba(152, 152, 238, 1) 19%, rgba(116, 232, 230, 1) 100%);
   mix-blend-mode: color;
   opacity: .5;
+
 }
 
 .footer a:hover {
@@ -174,9 +186,7 @@ a {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.footer .logo {
-  margin-right: 16px;
-}
+
 
 .footer nav {
   display: flex;
