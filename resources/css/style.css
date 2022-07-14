@@ -42,13 +42,15 @@ body {
 
 h1 {
   font-family: 'Newtown';
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
   font-style: italic;
   position: absolute;
   top: 8px;
   right: 16px;
   color: #fff;
+  letter-spacing: 1px;
+
 }
 
 h2 {
@@ -64,6 +66,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
+  letter-spacing: 1px;
 }
 
 .wce {
