@@ -37,6 +37,7 @@
 body {
   font-family: "Arial";
   font-size: 15px;
+  background-image: url(../images/background2.jpg);
 }
 
 h1 {
@@ -135,8 +136,6 @@ a {
   max-width: 1024px;
   min-height: 100%;
   margin: 0 auto;
-  background-image: url(../images/background2.jpg);
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
