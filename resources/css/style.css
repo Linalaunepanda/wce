@@ -135,6 +135,7 @@ a {
   max-width: 1024px;
   min-height: 100%;
   margin: 0 auto;
+  background-image: url(../images/background2.jpg);
 
   display: flex;
   flex-direction: column;
@@ -169,7 +170,6 @@ a {
 .main {
   flex-grow: 1;
   margin: 32px;
-  background-image: url(../images/background2.jpg);
 }
 
 hidden {
