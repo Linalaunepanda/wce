@@ -169,6 +169,7 @@ a {
 .main {
   flex-grow: 1;
   margin: 32px;
+  background-image: url(/resources/images/background2.jpg);
 }
 
 hidden {
