@@ -34,6 +34,10 @@
   font-display: swap;
 }
 
+#background {
+  background-image: url(../images/background2.jpg);
+}
+
 body {
   font-family: "Arial";
   font-size: 15px;
